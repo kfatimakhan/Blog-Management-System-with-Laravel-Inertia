@@ -9,8 +9,8 @@
         :key="toast.id"
         class="p-4 rounded-md shadow-lg text-white"
         :class="{
-          'bg-green-500': toast.type === 'success',
-          'bg-red-500': toast.type === 'error',
+            'bg-green-500': toast.type === 'success',
+            'bg-red-500': toast.type === 'error',
           'bg-blue-500': toast.type === 'info'
         }"
       >

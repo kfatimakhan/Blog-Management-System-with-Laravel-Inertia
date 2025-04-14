@@ -9,5 +9,11 @@ export default defineConfig({
             refresh: true,
         }),
         tailwindcss(),
+        vue(),
     ],
+    server: {
+    hmr: {
+      overlay: false
+    }
+  }
 });

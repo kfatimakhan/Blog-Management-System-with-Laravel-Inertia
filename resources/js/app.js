@@ -2,10 +2,10 @@ import './bootstrap';
 import '../css/app.css';
 
 import { createApp, h } from 'vue';
-import { createInertiaApp } from '@inertiajs/inertia-vue3';
-import { InertiaProgress } from '@inertiajs/progress';
+import { createInertiaApp } from "@inertiajs/vue3";
+import NProgress from "nprogress";
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
-import { ZiggyVue } from '../../vendor/tightenco/ziggy/dist/vue.m';
+// import { ZiggyVue } from '../../vendor/tightenco/ziggy/dist/vue.m';
 
 // Import plugins
 import Toast from '@/Components/Shared/Toast.vue';
